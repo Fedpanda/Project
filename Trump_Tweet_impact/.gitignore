@@ -1,0 +1,14 @@
+# Python junk
+__pycache__/
+*.pyc
+
+# Virtual environments / secrets
+.venv/
+.env
+
+# PyCharm settings
+.idea/
+
+# Large or generated data (adjust if needed)
+data_raw/
+data_processed/
