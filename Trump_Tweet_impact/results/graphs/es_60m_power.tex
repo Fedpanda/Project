@@ -1,0 +1,18 @@
+\begin{table}
+\caption{ES direction (60m), regime = power.}
+\label{tab:es_60m_power}
+\begin{tabular}{lllll}
+\toprule
+model & spec\_or\_feature\_set & baseline\_acc & acc & auc \\
+\midrule
+logit & stats\_only & 0.547 & 0.542 & 0.535 \\
+logit & stats\_plus\_vader & 0.547 & 0.540 & 0.535 \\
+logit & stats\_plus\_llm & 0.547 & 0.554 & 0.538 \\
+logit & llm\_only & 0.547 & 0.554 & 0.544 \\
+rf & stats\_only & 0.547 & 0.541 & 0.527 \\
+rf & stats\_plus\_vader & 0.547 & 0.548 & 0.525 \\
+rf & stats\_plus\_llm & 0.547 & 0.548 & 0.526 \\
+rf & llm\_only & 0.547 & 0.554 & 0.550 \\
+\bottomrule
+\end{tabular}
+\end{table}

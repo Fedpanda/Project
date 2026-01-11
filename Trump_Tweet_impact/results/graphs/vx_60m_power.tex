@@ -1,0 +1,22 @@
+\begin{table}
+\caption{VX spike (60m), regime = power.}
+\label{tab:vx_60m_power}
+\begin{tabular}{lllll}
+\toprule
+model & spec\_or\_feature\_set & baseline\_acc & acc & auc \\
+\midrule
+logit & stats\_only & 0.900 & 0.900 & 0.495 \\
+logit & stats\_plus\_vader & 0.900 & 0.900 & 0.495 \\
+logit & llm\_only & 0.900 & 0.900 & 0.501 \\
+logit & stats\_plus\_llm & 0.900 & 0.900 & 0.536 \\
+rf & stats\_only & 0.900 & 0.900 & 0.520 \\
+rf & stats\_plus\_vader & 0.900 & 0.900 & 0.504 \\
+rf & llm\_only & 0.900 & 0.900 & 0.536 \\
+rf & stats\_plus\_llm & 0.900 & 0.900 & 0.562 \\
+xgb & stats\_only & 0.900 & 0.900 & 0.536 \\
+xgb & stats\_plus\_vader & 0.900 & 0.900 & 0.494 \\
+xgb & llm\_only & 0.900 & 0.900 & 0.522 \\
+xgb & stats\_plus\_llm & 0.900 & 0.900 & 0.534 \\
+\bottomrule
+\end{tabular}
+\end{table}
