@@ -1,3 +1,4 @@
 *
 !.gitignore
-!truth_social
+!truth_social/
+!truth_social/**
