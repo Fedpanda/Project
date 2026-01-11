@@ -1,2 +1,4 @@
 *
 !.gitignore
+!market_data
+!trump_archive
