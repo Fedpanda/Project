@@ -10,5 +10,4 @@ __pycache__/
 .idea/
 
 # Large or generated data (adjust if needed)
-data_raw/
-data_processed/
+
